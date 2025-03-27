@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_partner_bank_form_inherit_account_custom" model="ir.ui.view">
+            <field name="name">res.partner.bank.form.additional.fields</field>
+            <field name="model">res.partner.bank</field>
+            <field name="inherit_id" ref="base.view_partner_bank_form" />
+            <field name="arch" type="xml">
+                <xpath expr="//field[@name='bank_id']" position="after">
+                    <field name="branch_id" domain="[('bank_id', '=', bank_id)]"/>
+                    <field name="branch_code" />
+                    <field name="swift_code" />
+                    <field name="is_preferred" />
+                </xpath>
+            </field>
+        </record>
+
+        <record id="view_res_bank_form_custom" model="ir.ui.view">
+            <field name="name">res.bank.form.inherit</field>
+            <field name="model">res.bank</field>
+            <field name="inherit_id" ref="base.view_res_bank_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//widget[@name='web_ribbon']" position="before">
+                    <div class="oe_button_box" name="button_box">
+                        <button class="oe_stat_button" type="object" name="action_view_branches" icon="bank" string="Branches">
+                            <field string="Branches" name="branch_ids_count" widget="statinfo"/>
+                        </button>
+                    </div>
+                </xpath>
+            </field>
+        </record>
+
+        <record id="action_banks" model="ir.actions.act_window">
+            <field name="name">Banks</field>
+            <field name="res_model">res.bank</field>
+            <field name="view_mode">list,form</field>
+        </record>
+
+        <!-- <menuitem name="Banks" id="menu_root_banks" web_icon="banks_zm,static/description/icon.png"/>
+        <menuitem id="menu_banks" name="Banks" parent="menu_root_banks" action="action_banks"/> -->
+    </data>
+</odoo>

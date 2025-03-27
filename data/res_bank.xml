@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- Define the salary rule category -->
+        <record id="mtn_res_bank" model="res.bank">
+            <field name="name">MTN</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="airtel_res_bank" model="res.bank">
+            <field name="name">Airtel</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+    </data>
+</odoo>

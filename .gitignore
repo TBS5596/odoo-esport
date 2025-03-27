@@ -1,0 +1,68 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.env/
+.envrc
+*.env
+
+# Odoo dependencies
+*.egg-info/
+*.egg
+dist/
+build/
+odoo/addons/*/static/lib/
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# Logs and temp files
+*.log
+logs/
+odoo.log
+*.pid
+*.swp
+.DS_Store
+
+# Database files
+*.sql
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+
+# Compiled assets
+*.sass-cache/
+*.css.map
+*.js.map
+
+# Custom Odoo Addons
+addons/*/static/lib/
+addons/*/__pycache__/
+addons/*/*.pyc
+
+# Odoo configuration files
+odoo.conf
+*.crt
+*.key
+
+# Ignore Odoo generated files
+*.iml
+*.idea/
+.vscode/
+*.bak
+*.orig
+*.rej
+
+# Docker and deployment
+docker-compose.override.yml
+*.dockerfile
+*.tar
+*.gz
+
+# Ignore all but sample env files
+!.env.example

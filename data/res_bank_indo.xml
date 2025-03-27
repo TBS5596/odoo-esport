@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="indo_res_bank" model="res.bank">
+            <field name="name">INDO Zambia Bank (IZB)</field>
+            <field name="bic">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <!-- Indo Zambia Bank Branches -->
+        <record id="izb_lusaka_main" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Lusaka Main</field>
+            <field name="branch_code">090001</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chilanga" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chilanga</field>
+            <field name="branch_code">090003</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_kamwala" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Kamwala</field>
+            <field name="branch_code">090004</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_northend" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Northend</field>
+            <field name="branch_code">090005</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_kabwe" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Kabwe</field>
+            <field name="branch_code">090906</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_ndola" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Ndola</field>
+            <field name="branch_code">090107</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_kitwe" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Kitwe</field>
+            <field name="branch_code">090208</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chingola" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chingola</field>
+            <field name="branch_code">090309</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_livingstone" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Livingstone</field>
+            <field name="branch_code">091010</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_industrial" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Industrial</field>
+            <field name="branch_code">090011</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chipata" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chipata</field>
+            <field name="branch_code">091112</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chawama" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chawama</field>
+            <field name="branch_code">090013</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_mandahill" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Mandahill</field>
+            <field name="branch_code">090014</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_nyimba" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Nyimba</field>
+            <field name="branch_code">095415</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chadwe" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chadwe</field>
+            <field name="branch_code">090016</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chililabombwe" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chililabombwe</field>
+            <field name="branch_code">090417</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_choma" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Choma</field>
+            <field name="branch_code">091218</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_solwezi" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Solwezi</field>
+            <field name="branch_code">092819</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_kasama" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Kasama</field>
+            <field name="branch_code">090820</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chinsali" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chinsali</field>
+            <field name="branch_code">091721</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_jacaranda_ndola" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Jacaranda Ndola</field>
+            <field name="branch_code">090122</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_crossroads" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Crossroads</field>
+            <field name="branch_code">090023</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_mansa" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Mansa</field>
+            <field name="branch_code">091924</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_copper_hill" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Copper Hill</field>
+            <field name="branch_code">090225</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_mongu" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Mongu</field>
+            <field name="branch_code">093126</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_kafue" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Kafue</field>
+            <field name="branch_code">093427</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_chilenji" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Chilenji</field>
+            <field name="branch_code">090028</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_zimba" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Zimba</field>
+            <field name="branch_code">094229</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_serenje" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Serenje</field>
+            <field name="branch_code">092230</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_lundazi" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Lundazi</field>
+            <field name="branch_code">092531</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="izb_mungwi" model="res.bank.branch">
+            <field name="bank_id" ref="indo_res_bank"/>
+            <field name="name">Mungwi</field>
+            <field name="branch_code">095632</field>
+            <field name="swift_code">INZAZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+    </data>
+</odoo>

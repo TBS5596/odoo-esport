@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data noupdate="1">
+        <record id="natsave_res_bank" model="res.bank">
+            <field name="name">National Savings and Credit Bank (NATSAVE)</field>
+            <field name="bic">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <!-- NATSAVE Bank Branches -->
+        <record id="natsave_chama" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Chama Branch</field>
+            <field name="branch_code">585903</field>
+            <field name="address">Chama, Eastern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_chavuma" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Chavuma Branch</field>
+            <field name="branch_code">587740</field>
+            <field name="address">Chavuma, North-Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_chilubi" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Chilubi Island Branch</field>
+            <field name="branch_code">587033</field>
+            <field name="address">Chilubi, Northern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_chinsali" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Chinsali Branch</field>
+            <field name="branch_code">581739</field>
+            <field name="address">Chinsali, Muchinga Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_chipata" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Chipata Branch</field>
+            <field name="branch_code">581104</field>
+            <field name="address">Chipata, Eastern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_choma" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Choma Branch</field>
+            <field name="branch_code">581219</field>
+            <field name="address">Choma, Southern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_chongwe" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Chongwe Branch</field>
+            <field name="branch_code">584605</field>
+            <field name="address">Chongwe, Lusaka Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kabwe" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kabwe Branch</field>
+            <field name="branch_code">580906</field>
+            <field name="address">Kabwe, Central Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kalabo" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kalabo Branch</field>
+            <field name="branch_code">584817</field>
+            <field name="address">Kalabo, Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kaputa" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kaputa Branch</field>
+            <field name="branch_code">586721</field>
+            <field name="address">Kaputa, Northern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <!-- Continue with remaining branches following the same pattern -->
+        <record id="natsave_kasama" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kasama Branch</field>
+            <field name="branch_code">580822</field>
+            <field name="address">Kasama, Northern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kasempa" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kasempa Branch</field>
+            <field name="branch_code">587223</field>
+            <field name="address">Kasempa, North-Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kazungula" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kazungula Branch</field>
+            <field name="branch_code">587518</field>
+            <field name="address">Kazungula, Southern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kitwe_chimwemwe" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kitwe Chimwemwe Branch</field>
+            <field name="branch_code">580220</field>
+            <field name="address">Kitwe, Copperbelt Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_kitwe_main" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Kitwe Main Branch</field>
+            <field name="branch_code">580224</field>
+            <field name="address">Kitwe, Copperbelt Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_livingstone" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Livingstone Branch</field>
+            <field name="branch_code">581007</field>
+            <field name="address">Livingstone, Southern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_luanshya" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Luanshya Branch</field>
+            <field name="branch_code">580725</field>
+            <field name="address">Luanshya, Copperbelt Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lufwanyama" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lufwanyama Branch</field>
+            <field name="branch_code">585435</field>
+            <field name="address">Lufwanyama, Copperbelt Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lukulu" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lukulu Branch</field>
+            <field name="branch_code">585116</field>
+            <field name="address">Lukulu, Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lumwana" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lumwana Branch</field>
+            <field name="branch_code">582836</field>
+            <field name="address">Lumwana, North-Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lusaka_chilenje" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lusaka Chilenje Branch</field>
+            <field name="branch_code">580009</field>
+            <field name="address">Lusaka, Lusaka Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lusaka_cosmo" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lusaka Cosmo Branch</field>
+            <field name="branch_code">580008</field>
+            <field name="address">Lusaka, Lusaka Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_head_office" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lusaka Head Office Cairo Road North End</field>
+            <field name="branch_code">580001</field>
+            <field name="address">Cairo Road North End, Lusaka, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lusaka_main" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lusaka Main Branch Cairo Rd South End</field>
+            <field name="branch_code">580010</field>
+            <field name="address">Cairo Road South End, Lusaka, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_lusaka_matero" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Lusaka Matero Branch</field>
+            <field name="branch_code">580011</field>
+            <field name="address">Matero, Lusaka, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_luwingu" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Luwingu Branch</field>
+            <field name="branch_code">586926</field>
+            <field name="address">Luwingu, Northern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mansa" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mansa Branch</field>
+            <field name="branch_code">581927</field>
+            <field name="address">Mansa, Luapula Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mongu" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mongu Branch</field>
+            <field name="branch_code">583113</field>
+            <field name="address">Mongu, Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mpika" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mpika Branch</field>
+            <field name="branch_code">581837</field>
+            <field name="address">Mpika, Muchinga Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mpongwe" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mpongwe Branch</field>
+            <field name="branch_code">585634</field>
+            <field name="address">Mpongwe, Copperbelt Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mporokoso" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mporokoso Branch</field>
+            <field name="branch_code">587128</field>
+            <field name="address">Mporokoso, Northern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mumbwa" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mumbwa Branch</field>
+            <field name="branch_code">585214</field>
+            <field name="address">Mumbwa, Central Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_mwense" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Mwense Branch</field>
+            <field name="branch_code">586338</field>
+            <field name="address">Mwense, Luapula Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_nchelenge" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Nchelenge Branch</field>
+            <field name="branch_code">586529</field>
+            <field name="address">Nchelenge, Luapula Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_ndola" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Ndola Branch</field>
+            <field name="branch_code">580130</field>
+            <field name="address">Ndola, Copperbelt Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_petauke" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Petauke Branch</field>
+            <field name="branch_code">584315</field>
+            <field name="address">Petauke, Eastern Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_solwezi" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Solwezi Branch</field>
+            <field name="branch_code">582831</field>
+            <field name="address">Solwezi, North-Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="natsave_zambezi" model="res.bank.branch">
+            <field name="bank_id" ref="natsave_res_bank"/>
+            <field name="name">Zambezi Branch</field>
+            <field name="branch_code">583032</field>
+            <field name="address">Zambezi, North-Western Province, Zambia</field>
+            <field name="swift_code">NSCBZML1</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+    </data>
+</odoo>
