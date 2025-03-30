@@ -29,6 +29,7 @@
         'data/res_bank_stanbic.xml',
         'data/res_bank_uba.xml',
         'data/res_bank_indo.xml',
+        'data/res_bank_fnb.xml',
         'views/res_bank.xml'
     ],
     'demo': [],

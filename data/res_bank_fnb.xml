@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="fnb_res_bank" model="res.bank">
+            <field name="name">First National Bank Zambia Limited (FNB)</field>
+            <field name="bic">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <!-- FNB Zambia Branches -->
+        <record id="fnb_head_office" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Head Office</field>
+            <field name="branch_code">260000</field>
+            <field name="address">Stand number 22768, Acacia Office Park, Cnr Thabo Mbeki and Great East Roads, Lusaka</field>
+            <field name="phone">+260 211 366 800</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_acacia_premier" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Acacia Premier Branch</field>
+            <field name="branch_code">260039</field>
+            <field name="address">Plot No 22768, Corner of Great East &amp; Thabo Mbeki Rds, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_cairo" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Cairo Branch</field>
+            <field name="branch_code">260050</field>
+            <field name="address">Stand No. F037, Society Business Park, Cairo Rd, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_chilenje" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Chilenje Branch</field>
+            <field name="branch_code">260046</field>
+            <field name="address">Plot 150/27/4586, Chilumbulu road, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_chingola" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Chingola Branch</field>
+            <field name="branch_code">260322</field>
+            <field name="address">Shop No. 13, Park Mall, Cnr Kabundi/Freedom Ave, Chingola</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_chipata" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Chipata Branch</field>
+            <field name="branch_code">261121</field>
+            <field name="address">Plot 646, Corner Pererinyatwa &amp; Umodzi High way Roads, Chipata</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_choma" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Choma Branch</field>
+            <field name="branch_code">261238</field>
+            <field name="address">Plot No ME46, Livingstone Road, Choma</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_commercial" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Commercial Branch</field>
+            <field name="branch_code">260001</field>
+            <field name="address">Plot No 22768, Corner of Great East &amp; Thabo Mbeki Rds, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_industrial" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Industrial Branch</field>
+            <field name="branch_code">260002</field>
+            <field name="address">Plot 16808, Lumumba Road Industrial Area, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_kabulonga_premier" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Kabulonga Premier Branch</field>
+            <field name="branch_code">260072</field>
+            <field name="address">Unit 63, Corner Bishop &amp; Kabulonga roads, Centro Mall, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_kabwe" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Kabwe Branch</field>
+            <field name="branch_code">260937</field>
+            <field name="address">Plot No. 87A, Buntungwa Avenue, Kabwe</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_kalumbila" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Kalumbila Branch</field>
+            <field name="branch_code">262874</field>
+            <field name="address">Plot 795, Central Business District, Kalumbila</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_kitwe_industrial" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Kitwe Industrial Branch</field>
+            <field name="branch_code">260247</field>
+            <field name="address">Mukuba Mall, 6939 Freedom Way &amp; Chiwala Ave, Kitwe</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_kitwe_main" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Kitwe Main Branch</field>
+            <field name="branch_code">260212</field>
+            <field name="address">Plot 493/494, Zambia Way &amp; Oxford Street, Kitwe</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_kitwe_private_clients" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Kitwe Private Clients</field>
+            <field name="branch_code">260261</field>
+            <field name="address">Office block 1, Stand no 7732, ECL Business Park, Kitwe</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_livingstone" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Livingstone Branch</field>
+            <field name="branch_code">261061</field>
+            <field name="address">Plot No. 112, Mosi-o-Tunya Road, Livingstone</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_luanshya" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Luanshya Branch</field>
+            <field name="branch_code">260741</field>
+            <field name="address">Stand No. 4, Zaone Avenue, Luanshya</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_lusaka_private_clients" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Lusaka Private Clients</field>
+            <field name="branch_code">260061</field>
+            <field name="address">Plot 35a/1, Lake Road, Woodlands, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_makeni" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Makeni Branch</field>
+            <field name="branch_code">260016</field>
+            <field name="address">Cosmopolitan Mall, Kafue Road, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_manda_hill" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Manda Hill Branch</field>
+            <field name="branch_code">260014</field>
+            <field name="address">Plot 19222, Zone 3 Building, MandHill Mall, Corner Great East &amp; Manchinchi Road, Lusaka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_mazabuka" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Mazabuka Branch</field>
+            <field name="branch_code">263613</field>
+            <field name="address">Plot No. 7a, Livingstone Road, Mazabuka</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_mkushi" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Mkushi Branch</field>
+            <field name="branch_code">262319</field>
+            <field name="address">Plot No. 414, Independence Road, Mkushi</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_ndola_main" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Ndola Main Branch</field>
+            <field name="branch_code">260103</field>
+            <field name="address">Plot No. 2177, President Avenue, Town Centre, Ndola</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+
+        <record id="fnb_solwezi" model="res.bank.branch">
+            <field name="bank_id" ref="fnb_res_bank"/>
+            <field name="name">Solwezi Branch</field>
+            <field name="branch_code">262823</field>
+            <field name="address">Plot No. 921, Kapiji Mall, Independence Avenue, Solwezi</field>
+            <field name="swift_code">FIRNZMLX</field>
+            <field name="country" ref="base.zm"/>
+        </record>
+    </data>
+</odoo>
