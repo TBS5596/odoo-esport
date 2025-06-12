@@ -33,7 +33,7 @@
         <record id="action_banks" model="ir.actions.act_window">
             <field name="name">Banks</field>
             <field name="res_model">res.bank</field>
-            <field name="view_mode">list,form</field>
+            <field name="view_mode">tree,form</field>
         </record>
 
         <menuitem name="Banks" id="menu_root_banks" web_icon="bank_zm,static/description/icon.png"/>
