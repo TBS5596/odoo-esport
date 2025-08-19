@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <record id="view_player_form" model="ir.ui.view">
+            <field name="name">player.form</field>
+            <field name="model">player</field>
+            <field name="arch" type="xml">
+                <form>
+                    <sheet>
+                        <group>
+                            <field name="first_name"/>
+                            <field name="last_name"/>
+                            <field name="age"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="view_player_list" model="ir.ui.view">
+            <field name="name">player.list</field>
+            <field name="model">player</field>
+            <field name="arch" type="xml">
+                <list>
+                    <field name="first_name"/>
+                    <field name="last_name"/>
+                    <field name="age" optional="hide"/>
+                </list>
+            </field>
+        </record>
+
+        <record id="action_players" model="ir.actions.act_window">
+            <field name="name">Players</field>
+            <field name="res_model">player</field>
+            <field name="view_mode">list,form</field>
+        </record>
+    </data>
+</odoo>

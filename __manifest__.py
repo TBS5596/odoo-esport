@@ -1,41 +1,23 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Banks ZM",
-
-    'summary': "Bank Ext.",
-
+    'name': "eSport",
+    'summary': "Gaming Module",
     'description': """
-    Banking Extension for Zambia
+    Gaming Module for Odoo
     """,
-
-    'author': "ISWE Solutions Limited",
-    'website': "https://www.iswesolutions.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
-    'category': 'Accounting',
+    'author': "Thom Simbeye",
+    'category': 'Customizations',
     'version': '18.0',
-
-    # any module necessary for this one to work correctly
-    'depends': ['base'],
-
-    # always loaded
+    'depends': [],
     'data': [
         'security/ir.model.access.csv',
-        'data/res_bank.xml',
-        'data/res_bank_zanaco.xml',
-        'data/res_bank_natsave.xml',
-        'data/res_bank_stanbic.xml',
-        'data/res_bank_uba.xml',
-        'data/res_bank_indo.xml',
-        'data/res_bank_fnb.xml',
-        'views/res_bank.xml'
+        'views/player.xml',
+        'views/esport_menu.xml',
     ],
     'demo': [],
-    'images': ['static/description/icon.png'],
+    'images': ['static/description/team.png'],
     'installable': True,
     'application': True,
-    'auto_install': True,
+    'auto_install': False,
     'license': "LGPL-3",
 }

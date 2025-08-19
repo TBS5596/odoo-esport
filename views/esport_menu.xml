@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <menuitem name="eSport" id="menu_root_players" web_icon="esport,static/description/team.png"/>
+        <menuitem id="menu_player" name="Players" parent="menu_root_players" action="action_players"/>
+    </data>
+</odoo>
