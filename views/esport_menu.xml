@@ -3,5 +3,6 @@
     <data>
         <menuitem name="eSport" id="menu_root_players" web_icon="esport,static/description/team.png"/>
         <menuitem id="menu_player" name="Players" parent="menu_root_players" action="action_players"/>
+        <menuitem id="menu_tournament" name="Tournaments" parent="menu_root_players" action="action_tournaments"/>
     </data>
 </odoo>

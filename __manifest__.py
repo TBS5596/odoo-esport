@@ -11,6 +11,7 @@
     'depends': [],
     'data': [
         'security/ir.model.access.csv',
+        'views/tournament.xml',
         'views/player.xml',
         'views/esport_menu.xml',
     ],

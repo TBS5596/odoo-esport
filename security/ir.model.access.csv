@@ -1,2 +1,4 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
 access_player,access_player,model_player,base.group_user,1,1,1,1
+access_tournament,access_tournament,model_tournament,base.group_user,1,1,1,1
+access_token,access_token,model_token,base.group_user,1,1,1,1

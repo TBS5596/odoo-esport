@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data>
+        <!-- Form View -->
+        <record id="view_tournament_form" model="ir.ui.view">
+            <field name="name">tournament.form</field>
+            <field name="model">tournament</field>
+            <field name="arch" type="xml">
+                <form string="Tournament">
+                    <field name="status" invisible="1"/>
+                    <header>
+                        <button name="push_tournament_to_calendar" type="object" string="Push to Calendar" class="oe_highlight"/>
+                        <field name="status" widget="statusbar" statusbar_visible="draft,confirmed,done"/>
+                    </header>
+                    <sheet>
+                        <group>
+                            <field name="name"/>
+                            <field name="status"/>
+                            <field name="game"/>
+                            <field name="location"/>
+                            <field name="date_time"/>
+                            <field name="date_time_to"/>
+                            <field name="max_players"/>
+                            <field name="players"/>
+                            <field name="winner_id"/>
+                            <field name="organizer_id"/>
+                            <field name="organizer_email"/>
+                            <field name="description"/>
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <!-- Calendar View -->
+        <record id="view_tournament_calendar" model="ir.ui.view">
+            <field name="name">tournament.calendar</field>
+            <field name="model">tournament</field>
+            <field name="arch" type="xml">
+                <calendar string="Tournaments" date_start="date_time" date_stop="date_time_to" color="organizer_id">
+                    <field name="name"/>
+                    <field name="game"/>
+                    <field name="location"/>
+                </calendar>
+            </field>
+        </record>
+
+        <!-- Update the action to include the new views -->
+        <record id="action_tournaments" model="ir.actions.act_window">
+            <field name="name">Tournaments</field>
+            <field name="res_model">tournament</field>
+            <field name="view_mode">list,form,calendar</field>
+        </record>
+    </data>
+</odoo>
